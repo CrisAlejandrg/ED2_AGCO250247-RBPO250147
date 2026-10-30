@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./resources/style.css">
+    <title>ED2_AGCO250247-RBPO250147</title>
+</head>
+
+<body>
+
+    <main class="container mt-5 pt-4">
+
+        <!-- ================= CANCIÓN 01 ================= -->
+        <section class="row align-items-start mb-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada1" src="./resources/Canciones/Álbum Amor Amor - José José.jpg" alt="Portada Amor Amor"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion1" class="m-0 fs-4">Amor Amor</h3>
+                        <p id="artista-cancion1" class="m-0 text-secondary">José José</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play1" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause1" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor1" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/amor amor.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones1" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 02 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada2" src="./resources/Canciones/Es po ti juares.jpg" alt="Portada Es por ti"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion2" class="m-0 fs-4">Es por ti</h3>
+                        <p id="artista-cancion2" class="m-0 text-secondary">Juanes</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play2" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause2" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor2" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Es por ti juares.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones2" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 03 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada3" src="./resources/Canciones/Inolvidable REIK.jpg" alt="Portada Inolvidable"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion3" class="m-0 fs-4">Inolvidable</h3>
+                        <p id="artista-cancion3" class="m-0 text-secondary">Reik</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play3" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause3" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor3" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Inolvidable Reik.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones3" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 04 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada4" src="./resources/Canciones/lamento boliviano.jpg" alt="Portada Lamento Boliviano"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion4" class="m-0 fs-4">Lamento Boliviano</h3>
+                        <p id="artista-cancion4" class="m-0 text-secondary">Enanitos Verdes</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play4" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause4" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor4" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Lamento Boliviano Enanitps Verdes.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones4" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 05 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada5" src="./resources/Canciones/MisteriosoAlguien.jpg" alt="Portada Misterioso Alguien"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion5" class="m-0 fs-4">Misterioso Alguien</h3>
+                        <p id="artista-cancion5" class="m-0 text-secondary">Miranda!</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play5" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause5" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor5" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Misterioso alguien.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones5" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 06 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada6" src="./resources/Canciones/Perdon Camila.jpg" alt="Portada Perdon"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion6" class="m-0 fs-4">Perdón</h3>
+                        <p id="artista-cancion6" class="m-0 text-secondary">Camila</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play6" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause6" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor6" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Perdon Camila.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones6" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 07 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada7" src="./resources/Canciones/Vida En El Espejo.jpg" alt="Portada Vida En El Espejo"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion7" class="m-0 fs-4">Vida En El Espejo</h3>
+                        <p id="artista-cancion7" class="m-0 text-secondary">Enjambre</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play7" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause7" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor7" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Vida En el espejo Enjambre.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones7" class="list-group list-group-flush">
+                        <!-- Las canciones se cargan con JS -->
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ================= CANCIÓN 08 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada8" src="./resources/Canciones/Preso - José José.jpg" alt="Portada Preso"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion8" class="m-0 fs-4">Preso</h3>
+                        <p id="artista-cancion8" class="m-0 text-secondary">José José</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play8" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause8" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor8" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Preso jose jose.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones8" class="list-group list-group-flush"></ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- ================= CANCIÓN 09 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada9" src="./resources/Canciones/soñe Zoe.jpg" alt="Portada Soñe"
+                    class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion9" class="m-0 fs-4">Soñé</h3>
+                        <p id="artista-cancion9" class="m-0 text-secondary">Zoé</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play9" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause9" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor9" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Soñe Zoe.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones9" class="list-group list-group-flush"></ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- ================= CANCIÓN 10 ================= -->
+        <section class="row align-items-start mb-5 border-top pt-5">
+            <!-- portada -->
+            <article class="col-md-6 text-center caja-reproductor mb-4 mb-md-0">
+                <h2 class="titulo-verde mb-4">Portada de la canción</h2>
+                <img id="portada10" src="./resources/Canciones/Tu tanta Falta de querer Mon Laferte.jpg"
+                    alt="Portada Tu Falta de Querer" class="img-fluid border border-info border-3 rounded shadow">
+            </article>
+
+            <!-- infor -->
+            <article class="col-md-6 text-center caja-reproductor">
+                <h2 class="titulo-verde mb-4">Lista de Reproducción</h2>
+                <!-- botones -->
+                <div class="d-flex justify-content-center align-items-center mb-4 gap-4">
+                    <div class="text-end">
+                        <h3 id="titulo-cancion10" class="m-0 fs-4">Tu Falta de Querer</h3>
+                        <p id="artista-cancion10" class="m-0 text-secondary">Mon Laferte</p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <button type="button" id="btn-play10" class="btn-solid theme-success">Play</button>
+                        <button type="button" id="btn-pause10" class="btn-solid theme-danger">Pause</button>
+                    </div>
+                </div>
+
+                <!-- reproductor -->
+                <audio id="reproductor10" controls class="w-100 mb-4">
+                    <source src="./resources/Canciones/Tu tanta Falta de querer Mon Laferte.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- Lista de Canciones -->
+                <div class="lista-contenedor text-start border rounded p-2">
+                    <ul id="lista-canciones10" class="list-group list-group-flush"></ul>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- boton git -->
+    <footer class="text-center mt-4 mb-5 border-top pt-4">
+        <a href="https://github.com/tu-usuario/tu-repositorio" target="_blank" class="btn btn-dark px-4 py-2">
+            Ver proyecto en GitHub
+        </a>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+    <script src="./resources/main.js"></script>
+</body>
+
+</html>
